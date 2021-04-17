@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About Us</title>
+	<link rel="stylesheet"href="mdb/css/bootstrap.css">
+	<link rel="stylesheet"href="mdb/css/mdb.css">
+	<link rel="stylesheet" href="fa/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<style>
+		body
+		{
+			background-image: url('Aboutigibody.png');
+	        background-repeat: no-repeat;
+	        background-attachment: fixed;
+	        background-size:60%;
+	        background-position: center;
+	        position: relative;
+		}
+		/*---------1st card body----------*/
+		#card-body1
+		{
+            font-weight: bold;
+            padding: 6px;
+            background: linear-gradient(to left,#ccffff,#ffffcc);
+		}
+		/*------------ex-care---forest care------*/
+		#ex-care .card-header
+		{
+            background: linear-gradient(45deg,#99ff99,#00ffff,#ffccff);
+		}
+		#ex-care .card-body
+		{
+			background: linear-gradient(45deg,#ccffff,#ffffcc);
+		}
+		/*-----------------------------img part---------------*/
+		.centered
+		{
+			position: absolute;
+			top: 50%;
+			left: 40%;
+			transform: translate(-50%,-50%);
+			transition-delay: 2s;
+		}
+		.centered:hover
+		{
+			
+			color: red;
+			animation:anim 4s linear 0s infinite alternate-reverse;
+		}
+		@keyframes anim
+		{
+			0%
+			{
+				transform: perspective(200px) rotateZ(0deg);
+				background-color: yellow;
+				color:blue;
+			}
+			50%
+			{
+				background-color: blue;
+				color:white;
+			}
+			100%
+			{
+				transform: perspective(200px) rotateZ(360deg);
+				background-color: green;
+				color:black;
+			}
+		}
+		
+     /*-----------------------------example card effect------------------*/
+     #exc1:hover
+     {
+     	transform: scale(1.1,1.2);
+     }
+     #exc2:hover
+     {
+     	transform: scale(1.1,1.2);
+     }
+     #exc3:hover
+     {
+     	transform: scale(1.1,1.2);
+     }
+	</style>
+
+</head>
+<body>
+	<div class="container mt-3">
+		<!-------1st---Paragraph and Image------->
+		<div class="row justify-content-between">
+			<div class="col-8">
+				<div class="card">
+					<div class="card-body text-center" id="card-body1">
+						<p>
+						We are a group of young and responsible citizens of nature carrying out a mission for the betterment of the society. The main objective of this organization is to spread awareness, share similar interests, encourage people and help plants trees. We collect money and plant trees in dry lands in an effort to increase the natural rainfall of that surrounding which would thereby increase the ground water level and cause natural rains which lead to the formation of lakes etc. Increasing climatic temperatures is a serious concern. Plantation of trees helps control the local temperatures and brings equilibrium to the surrounding eco-system. Plantation also increases the fertility of the soil, raises the employment factor, increase awareness in people to take up responsible and responsive agriculture, our initial mission is to plant a minimum of one plant a day which we believe is a humble beginning. The advantages of planting a single tree are innumerable and beyond comparison. There are stories of people who have succeeded in sprouting entire forests single handedly; the potential that lies in a combined effort is beyond imagination. Each one of you can help us through this endeavor in the following ways: </p>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-4">
+				 <div class="card">
+					<div class="card-body text-center bg-light" id="card-body2">
+						<img src="Aboutigi1.png" height="380px" width="320px" class="card-img-bottom w-100">
+					</div>
+				 </div>
+			</div>
+		</div>
+		
+	</div>
+	<!-------endof--1st---Paragraph and Image------->
+
+	<!-------example of forest care------------------->
+	<div class="container mt-5" id="ex-care">
+		<div class="row justify-content-between">
+			<!------------col1------>
+			<div class="col-4">
+				 <div class="card" id="exc1">
+		           <div class="card-header text-center"><h4>Gift a Tree</h4></div>
+		           <div class="card-body">
+		           	<p>Is there someone you love ? Someone you care for ? Then gifting a plant to that speci<br>al person is a present above all, we also p<br>rovide t-shirts and other memorable gifts t<br>o honor your participation. </p>
+		           </div>
+				 </div>
+			</div>
+			<!------------col2------>
+			<div class="col-4">
+				 <div class="card" id="exc2">
+		           <div class="card-header text-center"><h4>Plant a Tree</h4></div>
+		           <div class="card-body">
+		           	<p>Take part in this divine act by yourself whe<br>re we deliver plants right to your doorstep, you can plant it in a place of your choice or we can assist you with the place and also the type of the plant. </p>
+		           </div>
+				 </div>
+			</div>
+			<!------------col3------>
+			<div class="col-4">
+				 <div class="card" id="exc3">
+		           <div class="card-header text-center"><h4>Donate a Tree</h4></div>
+		           <div class="card-body">
+		           	<p>The hand that donates is more divine than the hand that prays, donate a plant to any organization or an individual or just tell us the person to whom the plant is to be donated. </p>
+		           </div>
+				 </div>
+			</div>
+		</div>
+	</div>
+
+	     <!-- ------------------------img part------------------------------ -->
+	     <section>
+	     	<div class="container mt-5">
+	     		<div class="row justify-content-center">
+	     			<div class="col-8">
+				      <div class="card">
+				      	<img src="Aboutigi2.jpg" height="380px">
+				      	<div class="centered animate__animated animate__fadeInDown"><h2>SAVE TREE <br> SAVE LIFE</h2></div>
+		           
+				      </div>
+			        </div>
+	            </div>
+	     	</div>
+	     </section>
+
+</body>
+</html>
